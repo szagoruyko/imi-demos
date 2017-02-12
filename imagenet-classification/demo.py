@@ -45,6 +45,7 @@ def f(inputs, params):
 
 
 tr = tnt.transform.compose([
+    lambda x: cv2.cvtColor(x, cv2.COLOR_BGR2RGB),
     T.Scale(256),
     T.CenterCrop(224),
     lambda x: x.astype(np.float32) / 255.0,
