@@ -1,7 +1,7 @@
 Neural Network Demos IMI
 ===========
 
-Presentation IMI (ingénierie mathématique et informatique) students
+Presentation for IMI (ingénierie mathématique et informatique) students
 at ENPC February 15 2017. There are 4 demos:
  * Live ImageNet classification with OpenCV
  * Telegram bot for ImageNet classification
@@ -13,5 +13,4 @@ The demos make use of:
  * OpenCV, fast computer vision library
  * Telegram, messenger with easy Python API for bot creation
 
-
- ## Live ImageNet classification
+This demos are mostly ported from <https://github.com/szagoruyko/torch-opencv-demos>
